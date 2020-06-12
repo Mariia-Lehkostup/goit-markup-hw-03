@@ -1,0 +1,194 @@
+:root {
+  --title-text-color: #212121;
+  --text-color: #757575;
+  --link-text-color: #2196f3;
+  --bcg-color: rgba(166, 168, 184, 0.8);
+  --bcg-btn-color: #2196f3;
+  --text-white-color: #ffffff;
+  --text-black-color: #000000;
+}
+body {
+  font-family: Roboto;
+  color: var(--text-white-color);
+}
+ul {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/*logo  */
+.logo {
+  font: bold 26px/31px Raleway serif;
+  text-decoration: none;
+}
+
+.logo-web {
+  color: var(--link-text-color);
+}
+.logo-st {
+  color: var(--text-black-color);
+}
+
+/* site-nav */
+.site-nav .link {
+  color: var(--title-text-color);
+  font: 500 14px/16px Roboto serif;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.header-contact .link:hover,
+.header-contact .link:focus {
+  color: var(--link-text-color);
+}
+
+/* commun-nav */
+.header-contact .link {
+  color: var(--text-color);
+}
+
+/* HERO */
+.hero .title {
+  color: var(--text-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero .link {
+  color: var(--text-white-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  letter-spacing: 0.06em;
+  background-color: var(--link-text-color);
+}
+
+/* description of solutions */
+.features-doing .title,
+.features-team .title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+  text-align: center;
+}
+.features .title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+.features .text {
+  color: var(--text-color);
+  line-height: 24px;
+  font-size: 14px;
+}
+
+/* our doin */
+.features-doing .link {
+  color: var(--text-white-color);
+  background-color: var(--bcg-color);
+}
+
+/* our team */
+.features-team {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.features-team .name {
+  font-weight: 500;
+}
+.features-team .profession {
+  color: var(--text-color);
+}
+.features-team .link {
+  color: #afb1b8;
+}
+.features-team .link:hover {
+  color: var(--link-text-color);
+}
+
+/* customers */
+.customers .title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+.logo-styd,
+.address {
+  color: var(--text-white-color);
+}
+
+.connect,
+.develop,
+.address {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.title-connect {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-white-color);
+}
+.develop {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* portfolio.css */
+.hero-site {
+  text-align: center;
+}
+.hero-site .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+}
+.hero-site .link:hover,
+.hero-site .link:focus,
+.text-depiction {
+  color: var(--text-white-color);
+  background-color: var(--bcg-btn-color);
+}
+.title-depiction {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.title-depiction .text {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
