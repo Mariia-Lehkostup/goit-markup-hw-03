@@ -31,6 +31,10 @@ ul {
   text-decoration: none;
 }
 /*logo  */
+.header {
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
 
 .logo {
   font: bold 26px/31px Raleway serif;
@@ -45,6 +49,9 @@ ul {
 }
 
 /* site-nav */
+.site-nav {
+  margin-top: 32px;
+}
 .site-nav .link {
   color: var(--title-text-color);
   font: 500 14px/16px Roboto serif;
@@ -62,7 +69,10 @@ ul {
 .header-contact .link {
   color: var(--text-color);
 }
-
+.header-contact {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
 /* HERO */
 .hero {
   text-align: center;
@@ -181,10 +191,42 @@ ul {
 }
 
 /* customers */
-
+.picture {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.yaco {
+  padding: 20px 63px;
+}
+.company {
+  padding: 19px 65px;
+}
+.comp {
+  padding: 24px 65px;
+}
+.foster {
+  padding: 24px 45px;
+}
+.brand {
+  padding: 22px 55px;
+}
+.line {
+  padding: 22px 41px;
+}
 /* footer */
 .footer {
+  width: 1600px;
+  height: 253px;
   background-color: #2f303a;
+}
+.logo-footer {
+  display: block;
+  padding-top: 48px;
+  margin-bottom: 10px;
+}
+.footer-address {
+  display: contents;
+  text-align: left;
 }
 .logo-styd,
 .address {
@@ -205,6 +247,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--text-white-color);
+  margin-bottom: 21px;
 }
 .develop {
   text-align: center;
