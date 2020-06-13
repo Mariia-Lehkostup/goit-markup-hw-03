@@ -88,7 +88,8 @@ ul {
 /* description of solutions */
 .features {
   display: block;
-  height: 251px;
+  margin-bottom: 94px;
+  /* height: 251px; */
 }
 .features-icon {
   width: 270px;
@@ -97,21 +98,24 @@ ul {
   top: 774px;
   background: #f5f4fa;
   border-radius: 4px;
+  margin-bottom: 30px;
 }
 .features-doing .title,
-.features-team .title {
+.features-team .title,
+.customers .title {
   font: bold 36px/42px Roboto serif;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--title-text-color);
   text-align: center;
 }
+
 .features .title {
   font: bold 14px/16px Roboto serif;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
   width: 270px;
+  margin-bottom: 10px;
 }
 .features .text {
   color: var(--text-color);
@@ -121,17 +125,47 @@ ul {
 }
 
 /* our doin */
+.hero,
+.features,
+.features-doing,
+.features-team,
+.customers {
+  margin: 0px;
+  margin-bottom: 94px;
+}
 .features-doing .link {
+  font: bold 14px/16px Roboto serif;
+  font-family: Roboto;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--text-white-color);
   background-color: var(--bcg-color);
+  border-radius: 0px 0px 4px 4px;
+  width: 370px;
+  height: 70px;
 }
-
+.desktop {
+  padding: 27px 82px 27px 83px;
+}
+.apps {
+  padding: 27px 84px 27px 86px;
+}
+.design {
+  padding: 27px 90px 27px 91px;
+}
+.link-item {
+  text-decoration: none;
+  width: 370px;
+  height: 294px;
+}
 /* our team */
 .features-team {
   font: normal 16px/19px Roboto serif;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin-top: 0px;
+  margin-bottom: 94px;
 }
 .features-team .name {
   font-weight: 500;
@@ -147,12 +181,6 @@ ul {
 }
 
 /* customers */
-.customers .title {
-  font: bold 36px/42px Roboto serif;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-text-color);
-}
 
 /* footer */
 .footer {
