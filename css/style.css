@@ -7,9 +7,22 @@
   --text-white-color: #ffffff;
   --text-black-color: #000000;
 }
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 body {
   font-family: Roboto;
   color: var(--text-white-color);
+  margin: 0;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
 }
 ul {
   list-style: none;
@@ -18,6 +31,7 @@ ul {
   text-decoration: none;
 }
 /*logo  */
+
 .logo {
   font: bold 26px/31px Raleway serif;
   text-decoration: none;
@@ -50,47 +64,60 @@ ul {
 }
 
 /* HERO */
+.hero {
+  text-align: center;
+  margin-bottom: 94px;
+}
 .hero .title {
   color: var(--text-white-color);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
+  font: 900 44px/60px Roboto serif;
+  margin-bottom: 46px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+
 .hero .link {
   color: var(--text-white-color);
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 30px;
-  display: flex;
+  font: bold 16px/30px Roboto serif;
+  padding: 10px 32px;
+  border-radius: 4px;
   letter-spacing: 0.06em;
   background-color: var(--link-text-color);
 }
 
 /* description of solutions */
+.features {
+  display: block;
+  height: 251px;
+}
+.features-icon {
+  width: 270px;
+  height: 120px;
+  left: 215px;
+  top: 774px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
 .features-doing .title,
 .features-team .title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
+  font: bold 36px/42px Roboto serif;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
   text-align: center;
 }
 .features .title {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
+  font: bold 14px/16px Roboto serif;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
+  width: 270px;
 }
 .features .text {
   color: var(--text-color);
   line-height: 24px;
   font-size: 14px;
+  width: 270px;
 }
 
 /* our doin */
@@ -101,8 +128,7 @@ ul {
 
 /* our team */
 .features-team {
-  font-size: 16px;
-  line-height: 19px;
+  font: normal 16px/19px Roboto serif;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
@@ -122,9 +148,7 @@ ul {
 
 /* customers */
 .customers .title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
+  font: bold 36px/42px Roboto serif;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
@@ -142,17 +166,14 @@ ul {
 .connect,
 .develop,
 .address {
-  font-size: 14px;
-  line-height: 24px;
+  font: normal 14px/24px Roboto serif;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
 
 .title-connect {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
+  font: bold 14px/16px Roboto serif;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--text-white-color);
@@ -168,9 +189,7 @@ ul {
 }
 .hero-site .link {
   color: var(--title-text-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
+  font: 500 16px/26px Roboto serif;
   letter-spacing: 0.03em;
 }
 .hero-site .link:hover,
@@ -180,15 +199,12 @@ ul {
   background-color: var(--bcg-btn-color);
 }
 .title-depiction {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 36px;
+  font: bold 18px/36px Roboto serif;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
 .title-depiction .text {
-  font-size: 16px;
-  line-height: 30px;
+  font: normal 16px/30px Roboto serif;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
