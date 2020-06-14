@@ -261,7 +261,17 @@ ul {
   height: 253px;
   background-color: #2f303a;
 }
-.footer-nav {
+.footer-style {
+  display: flex;
+  align-items: center;
+}
+.footer-address-item {
+  width: 206px;
+  margin-left: 69px;
+}
+.subscription {
+  width: 570px;
+  margin-left: 94px;
 }
 .logo-footer {
   display: block;
@@ -270,7 +280,9 @@ ul {
 }
 .footer-address {
   display: contents;
-  text-align: left;
+  justify-content: left;
+  width: 231px;
+  margin-right: 69px;
 }
 .logo-styd,
 .address {
@@ -291,7 +303,8 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--text-white-color);
-  margin-bottom: 21px;
+  margin-top: 56px;
+  /* margin-bottom: 21px; */
 }
 .develop {
   text-align: center;
