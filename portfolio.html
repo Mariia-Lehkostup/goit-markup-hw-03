@@ -13,30 +13,34 @@
   </head>
   <body>
     <!-- site header -->
-    <header class="page-header">
-      <div class="container">
-        <a href="/index.html" class="logo">
-          <span class="logo-web">Web</span>
-          <span class="logo-st">Studio</span></a
-        >
+    <header>
+      <div class="container main-nav indent">
+        <div class="header">
+          <a href="/index.html" class="logo">
+            <span class="logo-web">Web</span>
+            <span class="logo-st">Studio</span></a
+          >
+        </div>
 
         <nav>
           <ul class="site-nav">
-            <li><a href="" class="link">Студия</a></li>
-            <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-            <li><a href="" class="link">Контакты</a></li>
+            <li class="item">
+              <a href="./portfolio.html" class="link">Портфолио</a>
+            </li>
+            <li class="item"><a href="" class="link">Контакты</a></li>
+            <li class="item"><a href="" class="link">Студия</a></li>
           </ul>
         </nav>
 
         <ul class="header-contact">
-          <li>
-            <a href="mailto:info@devstudio.com" class="link">
+          <li class="item">
+            <a class="link" href="mailto:info@devstudio.com">
               <img src="./image/envelope(hover).svg" alt="email" />
               info@devstudio.com</a
             >
           </li>
-          <li>
-            <a href="tel:+380961111111" class="link">
+          <li class="item">
+            <a class="link" href="tel:+380961111111">
               <img src="./image/smartphone.svg" alt="tel" />
               +38 096 111 11 11</a
             >
@@ -47,35 +51,35 @@
     <main>
       <div class="container">
         <nav class="hero-site">
-          <ul>
-            <li>
+          <ul class="hero-site-item">
+            <li class="item">
               <a href="" class="link">Все</a>
             </li>
-            <li>
+            <li class="item">
               <a href="" class="link">Веб сайты</a>
             </li>
-            <li>
+            <li class="item">
               <a href="" class="link">Приложения</a>
             </li>
-            <li>
+            <li class="item">
               <a href="" class="link">Дизайн</a>
             </li>
-            <li>
+            <li class="item">
               <a href="" class="link">Маркетинг</a>
             </li>
           </ul>
         </nav>
         <div>
-          <ul>
+          <ul class="flex-container">
             <li class="title-depiction">
               <p class="text-depiction">
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов
               </p>
-              <span>Технокряк</span>
+              <div>Технокряк</div>
               <img src="./imagess/container1.png" alt="" />
-              <span class="text">Веб-сайт</span>
+              <div class="text">Веб-сайт</div>
             </li>
             <li class="title-depiction">
               <p class="text-depiction">
@@ -83,9 +87,9 @@
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов
               </p>
-              <span>Постер New Orlean vs Golden Star</span>
+              <div>Постер New Orlean vs Golden Star</div>
               <img src="./imagess/container2.png" alt="" />
-              <span class="text">Дизайн</span>
+              <div class="text">Дизайн</div>
             </li>
             <li class="title-depiction">
               <p class="text-depiction">
@@ -93,9 +97,9 @@
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов
               </p>
-              <span>Ресторан Seafood</span>
+              <div>Ресторан Seafood</div>
               <img src="./imagess/container3.png" alt="" />
-              <span class="text">Приложение</span>
+              <div class="text">Приложение</div>
             </li>
             <li class="title-depiction">
               <p class="text-depiction">
@@ -103,9 +107,9 @@
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов
               </p>
-              <span>Проект Prime</span>
+              <div>Проект Prime</div>
               <img src="./imagess/container4.png" alt="" />
-              <span class="text">Маркетинг</span>
+              <div class="text">Маркетинг</div>
             </li>
             <li class="title-depiction">
               <p class="text-depiction">
@@ -113,9 +117,9 @@
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов
               </p>
-              <span>Проект Boxes</span>
+              <div>Проект Boxes</div>
               <img src="./imagess/container5.png" alt="" />
-              <span class="text">Приложение</span>
+              <div class="text">Приложение</div>
             </li>
             <li class="title-depiction">
               <p class="text-depiction">
@@ -123,9 +127,9 @@
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов
               </p>
-              <span>Inspiration has no Borders</span>
+              <div>Inspiration has no Borders</div>
               <img src="./imagess/container6.png" alt="" />
-              <span class="text">Веб-сайт</span>
+              <div class="text">Веб-сайт</div>
             </li>
             <li class="title-depiction">
               <p class="text-depiction">
@@ -133,9 +137,9 @@
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов
               </p>
-              <span>Издание Limited Edition</span>
+              <div>Издание Limited Edition</div>
               <img src="./imagess/container7.png" alt="" />
-              <span class="text">Дизайн</span>
+              <div class="text">Дизайн</div>
             </li>
             <li class="title-depiction">
               <p class="text-depiction">
@@ -143,9 +147,9 @@
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов
               </p>
-              <span>Проект LAB</span>
+              <div>Проект LAB</div>
               <img src="./imagess/container8.png" alt="" />
-              <span class="text">Маркетинг</span>
+              <div class="text">Маркетинг</div>
             </li>
             <li class="title-depiction">
               <p class="text-depiction">
@@ -153,9 +157,9 @@
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов
               </p>
-              <span>Growing Business</span>
+              <div>Growing Business</div>
               <img src="./imagess/container9.png" alt="" />
-              <span class="text">Приложение</span>
+              <div class="text">Приложение</div>
             </li>
           </ul>
         </div>

@@ -21,8 +21,15 @@ body {
   margin: 0;
 }
 .container {
-  width: 1170px;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
 }
 ul {
   list-style: none;
@@ -50,14 +57,20 @@ ul {
 
 /* site-nav */
 .site-nav {
+  margin-left: 85px;
   margin-top: 32px;
+  display: flex;
 }
 .site-nav .link {
   color: var(--title-text-color);
   font: 500 14px/16px Roboto serif;
   letter-spacing: 0.02em;
+  display: block;
+  padding-bottom: 32px;
 }
-
+.site-nav .item + .item {
+  margin-left: 50px;
+}
 .site-nav .link:hover,
 .site-nav .link:focus,
 .header-contact .link:hover,
@@ -66,8 +79,15 @@ ul {
 }
 
 /* commun-nav */
+.header-contact {
+  margin-left: auto;
+  display: flex;
+}
 .header-contact .link {
   color: var(--text-color);
+}
+.header-contact .item + .item {
+  margin-left: 30px;
 }
 .header-contact {
   margin-top: 32px;
@@ -97,9 +117,22 @@ ul {
 
 /* description of solutions */
 .features {
-  display: block;
   margin-bottom: 94px;
   /* height: 251px; */
+}
+.features-item,
+.feature-doing-item,
+.features-team-item,
+.customers-item,
+.footer-address-item,
+.hero-site-item {
+  display: flex;
+}
+.features-item .item + .item,
+.feature-doing-item .item + .item,
+.features-team-item .item + .item,
+.customers-item .item + .item {
+  margin-left: 30px;
 }
 .features-icon {
   width: 270px;
@@ -135,6 +168,9 @@ ul {
 }
 
 /* our doin */
+.images {
+  display: block;
+}
 .hero,
 .features,
 .features-doing,
@@ -178,9 +214,11 @@ ul {
   margin-bottom: 94px;
 }
 .features-team .name {
+  margin-top: 30px;
   font-weight: 500;
 }
 .features-team .profession {
+  margin-top: 10px;
   color: var(--text-color);
 }
 .features-team .link {
@@ -188,6 +226,10 @@ ul {
 }
 .features-team .link:hover {
   color: var(--link-text-color);
+}
+.list-icon {
+  display: flex;
+  margin-top: 16px;
 }
 
 /* customers */
@@ -218,6 +260,8 @@ ul {
   width: 1600px;
   height: 253px;
   background-color: #2f303a;
+}
+.footer-nav {
 }
 .logo-footer {
   display: block;
@@ -263,6 +307,9 @@ ul {
   font: 500 16px/26px Roboto serif;
   letter-spacing: 0.03em;
 }
+.indent {
+  margin-bottom: 93px;
+}
 .hero-site .link:hover,
 .hero-site .link:focus,
 .text-depiction {
@@ -278,4 +325,38 @@ ul {
   font: normal 16px/30px Roboto serif;
   letter-spacing: 0.03em;
   color: var(--text-color);
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 94px;
+}
+.title-depiction {
+  width: 370px;
+  margin-right: 30px;
+}
+.title-depiction:nth-child(3n) {
+  margin-right: 0px;
+}
+.hero-site-item {
+  justify-content: center;
+  margin-bottom: 34px;
+}
+.hero-site-item .item {
+  background: #f5f4fa;
+  border-radius: 4px;
+  padding: 6px 22px;
+}
+.hero-site-item .item + .item {
+  margin-left: 8px;
+}
+.hero-site-item .item:hover,
+.hero-site-item .item:focus {
+  background-color: var(--bcg-btn-color);
+  color: var(--text-white-color);
 }
