@@ -175,6 +175,7 @@ ul {
   line-height: 24px;
   font-size: 14px;
   width: 270px;
+  letter-spacing: 0.03em;
 }
 
 /* our doin */
@@ -217,6 +218,13 @@ ul {
 }
 
 /* our team */
+.section-team {
+  display: flex;
+  width: 1600px;
+  height: 702px;
+  margin: auto 0;
+  background: #f5f4fa;
+}
 .features-team {
   font: normal 16px/19px Roboto, serif;
   text-align: center;
@@ -240,6 +248,10 @@ ul {
 .list-icon {
   display: flex;
   margin-top: 16px;
+  justify-content: center;
+
+  /* align-items: center;
+  margin-left: auto; */
 }
 
 /* customers */
