@@ -39,6 +39,8 @@ body {
 }
 ul {
   list-style: none;
+  margin: 0 auto;
+  padding: 0;
 }
 .link {
   text-decoration: none;
@@ -267,6 +269,7 @@ ul {
 .footer {
   width: 1600px;
   height: 253px;
+  margin: 0 auto;
   background-color: #2f303a;
 }
 .footer-style {
@@ -287,8 +290,6 @@ ul {
   margin-bottom: 10px;
 }
 .footer-address {
-  display: contents;
-  justify-content: left;
   width: 231px;
   margin-right: 69px;
 }
