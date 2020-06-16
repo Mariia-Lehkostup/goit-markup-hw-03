@@ -219,13 +219,14 @@ ul {
 
 /* our team */
 .section-team {
-  display: flex;
   width: 1600px;
   height: 702px;
   margin: auto 0;
   background: #f5f4fa;
 }
 .features-team {
+  display: flex;
+  align-items: center;
   font: normal 16px/19px Roboto, serif;
   text-align: center;
   letter-spacing: 0.03em;
@@ -344,9 +345,13 @@ ul {
 .indent {
   margin-bottom: 93px;
 }
-.hero-site .link:hover,
-.hero-site .link:focus,
+
 .text-depiction {
+  color: var(--text-white-color);
+  background-color: var(--bcg-btn-color);
+}
+.hero-site .link:hover,
+.hero-site .link:focus {
   color: var(--text-white-color);
   background-color: var(--bcg-btn-color);
 }
