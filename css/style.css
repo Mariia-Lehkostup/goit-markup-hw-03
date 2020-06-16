@@ -64,6 +64,10 @@ ul {
 }
 
 /* site-nav */
+.main-section {
+  width: 1600px;
+  margin: 0 auto;
+}
 .site-nav {
   margin-left: 85px;
   margin-top: 32px;
@@ -108,17 +112,6 @@ ul {
   margin-bottom: 94px;
   display: flex;
   align-items: center;
-  /* width: 1600px;
-  height: 600px;
-  margin: 0 auto; */
-}
-
-.hero-img {
-  display: flex;
-  align-items: center;
-  width: 1600px;
-  height: 600px;
-  margin: 0 auto;
 }
 
 .hero .title {
@@ -127,6 +120,9 @@ ul {
   margin-bottom: 46px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  position: absolute;
+  top: 30%;
+  left: 20%;
 }
 
 .hero .link {
@@ -135,6 +131,9 @@ ul {
   padding: 10px 32px;
   border-radius: 4px;
   letter-spacing: 0.06em;
+  position: absolute;
+  bottom: 50px;
+  left: 45%;
   background-color: var(--link-text-color);
 }
 
@@ -204,6 +203,7 @@ ul {
   margin: 0px;
   margin-bottom: 94px;
   padding: 0;
+  position: relative;
 }
 .features-doing .link {
   font: bold 14px/16px Roboto, serif;
