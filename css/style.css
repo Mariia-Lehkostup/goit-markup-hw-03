@@ -137,7 +137,10 @@ ul {
   margin: 0 auto;
   background-color: var(--link-text-color);
 }
-
+.hero-img {
+  /* color: rgba(47, 48, 58, 0.8); */
+  background-blend-mode: rgba(47, 48, 58, 0.8);
+}
 /* description of solutions */
 .features {
   margin-bottom: 94px;
