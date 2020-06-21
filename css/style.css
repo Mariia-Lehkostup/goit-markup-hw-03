@@ -133,7 +133,7 @@ a {
   position: absolute;
   top: 40%;
   left: 50%;
-  margin-right: -50%;
+
   transform: translate(-50%, -50%);
 }
 
@@ -146,7 +146,7 @@ a {
   position: absolute;
   bottom: 25%;
   left: 50%;
-  margin-right: -50%;
+
   transform: translate(-50%, -50%);
   background-color: var(--link-text-color);
 }
@@ -233,7 +233,7 @@ a {
   text-transform: uppercase;
   color: var(--text-white-color);
   background-color: var(--bcg-color-grey);
-  border-radius: 0px 0px 4px 4px;
+
   width: 370px;
   height: 70px;
   display: flex;
@@ -375,11 +375,20 @@ a {
 /* portfolio.css */
 .hero-site {
   text-align: center;
+  margin-bottom: 50px;
 }
 .hero-site .link {
   color: var(--title-text-color);
   font: 500 16px/26px Roboto, serif;
   letter-spacing: 0.03em;
+  justify-content: center;
+  margin-bottom: 34px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  padding: 6px 22px;
+}
+.hero-site .link + .link {
+  margin-left: 8px;
 }
 .indent {
   margin-bottom: 93px;
@@ -411,6 +420,7 @@ a {
   align-items: center;
   justify-content: center;
   background: rgba(33, 150, 243, 0.9);
+  margin-top: 0;
 }
 
 .title-depiction .text {
@@ -436,21 +446,4 @@ a {
 }
 .title-depiction:nth-child(3n) {
   margin-right: 0px;
-}
-.hero-site-item {
-  justify-content: center;
-  margin-bottom: 34px;
-}
-.hero-site-item .item {
-  background: #f5f4fa;
-  border-radius: 4px;
-  padding: 6px 22px;
-}
-.hero-site-item .item + .item {
-  margin-left: 8px;
-}
-.hero-site-item .item:hover,
-.hero-site-item .item:focus {
-  background-color: var(--bcg-btn-color);
-  color: var(--text-white-color);
 }
